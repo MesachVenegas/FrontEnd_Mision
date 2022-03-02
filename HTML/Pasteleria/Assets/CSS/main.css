@@ -12,8 +12,7 @@
 }
 .nav-bar{
     background-color: #faebd7;
-    padding: 1%;
-    opacity: 80%;
+    height: 10vh;
 }
 .nav-bar a{
     color: #553811;
@@ -22,12 +21,12 @@
 }
 .nav-bar a:hover{
     color: sienna;
-    text-decoration: dashed;;
+    text-decoration: dashed;
 }
 .logo{
-    width: 8%;
+    width: 5%;
+    opacity: none;
 }
 .layer{
-    height: 700px;
-    width: 1310px;
+    width: 100vw;
 }
