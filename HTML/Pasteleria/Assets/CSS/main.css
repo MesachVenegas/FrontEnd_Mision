@@ -22,10 +22,21 @@
     color: sienna;
     text-decoration: dashed;
 }
-.logo{
-    width: 5%;
-    opacity: none;
-}
+
 .layer{
     width: 100vw;
+}
+.column-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.column-2 div{
+    padding: 2em;
+}
+
+.formulario{
+    background-color: #4d4d4d;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
 }
