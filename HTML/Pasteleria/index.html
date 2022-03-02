@@ -11,21 +11,29 @@
 <body>
     <!-- Barra de navegación -->
     <nav class="nav-bar">
-        <a href="index.html"><img src="Assets/Images/Balbuena-no-bg.png" alt="Pastelería Balbuena" class="logo"></a>
-        <a href="index.html">Home</a>
-        <a href="admin.html">Admin</a>
+        <div class="column-2">
+            <div class="logo">
+                <a href="index.html"><img src="Assets/Images/Balbuena-no-bg.png" alt="Pastelería Balbuena"></a>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="admin.html">Admin</a>
+            </div>
+        </div>
     </nav>
+
     <!-- Saludo -->
     <img class="layer" src="Assets/Images/layer-img.jpg" alt="Pastel Balbuena">
     <h1 id="welcome">Pastelería Balbuena Bienvenidos!</h1>
     <hr class="separator">
 
     <!--  Listado de sabores y  decoraciones   -->
-    <div class="flavors">
-        <h2>Sabores</h2>
-        <ul>
-            <li>Chocolate ..........................  $160</li>
-            <li>Fresa .............................. $145</li>
+    <div class="column-2">
+        <div class="flavors">
+            <h3>Sabores</h3>
+            <ul>
+                <li>Chocolate ..........................  $160</li>
+                <li>Fresa .............................. $145</li>
             <li>Vainilla ........................... $155</li>
             <li>Natural ............................ $130</li>
             <li>3 Leches ........................... $210</li>
@@ -34,20 +42,21 @@
     </div>
 
     <div class="decorations">
-        <h2>Decoraciones</h2>
+        <h3>Decoraciones</h3>
         <ul>
-            <li>Colorante natural </li>
-            <li>Velas Personalizadas</li>
-            <li>Letrero personalizado</li>
-            <li>Figuras  plásticas</li>
-            <li>Figuras comestibles</li>
-            <li>Adornos acrílicos</li>
-            <li>Fondan</li>
+            <li>Colorante natural .......................... $50 </li>
+            <li>Velas Personalizadas ....................... $100</li>
+            <li>Letrero personalizado ...................... $75</li>
+            <li>Figuras  plásticas .......................... $60</li>
+            <li>Figuras comestibles ........................ $120</li>
+            <li>Adornos acrílicos .......................... $65</li>
+            <li>Fondan ..................................... $70</li>
         </ul>
     </div>
+</div>
 
     <!--   Formulario de Pedidos -->
-    <form >
+    <form class="formulario">
         <label for="name">Nombre:</label>
         <input type="text" id="name" name="name">
         <label for="lastname">Apellidos:</label>
