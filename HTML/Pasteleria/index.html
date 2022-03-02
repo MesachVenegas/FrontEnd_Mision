@@ -35,23 +35,37 @@
     <li>Fondan</li>
 </ul>
 
-<!--    Selector de sabores y/o combinaciones-->
-<label for="flavor-mi">Sabor(es)</label>
-<select name="flavor" id="mi-fñavor">
-    <option value="">Chocolate</option>
-    <option value="">Fresa</option>
-    <option value="">Vanilla</option>
-    <option value="">3 Leches</option>
-    <option value="">Frutas</option>
-</select>
-
-<select name="flavor" id="mi-fñavor">
-    <option value="">Chocolate</option>
-    <option value="">Fresa</option>
-    <option value="">Vanilla</option>
-    <option value="">3 Leches</option>
-    <option value="">Frutas</option>
-</select>
+<!--   Pedidos -->
+<form >
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="phone">Telefono:</label>
+    <input type="text" name="phone" id="phone">
+    <br>
+    <label for="email">Correo Electronico:</label>
+    <input type="email" name="email" id="email">
+    <br>
+    <label for="description">Descripcion del pedido:</label>
+    <textarea name="description" id="description" cols="15" rows="10"></textarea>
+    <br>
+    <label for="flavors">Sabores</label>
+    <select name=flavor id="flavor">
+        <option value="Chocolate">Chocolate</option>
+        <option value="Vainilla">Vainilla</option>
+        <option value="Fresa">Fresa</option>
+        <option value="3 Leches">3 Leches</option>
+        <option value="Frutas">Frutas</option>
+    </select>
+    <label for="mix">Combinar con:</label>
+    <select name="flavor-2" id="flavor-2">
+        <option value="Chocolate">Chocolate</option>
+        <option value="Vainilla">Vainilla</option>
+        <option value="Fresa">Fresa</option>
+        <option value="3 Leches">3 Leches</option>
+        <option value="Frutas">Frutas</option>
+    </select>
+</form>
 
 
 </body>
