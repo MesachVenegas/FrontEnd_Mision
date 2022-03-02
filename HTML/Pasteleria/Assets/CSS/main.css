@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
     font-family: 'Fira Code';
     font-weight: 600;
@@ -12,11 +13,9 @@
 }
 .nav-bar{
     background-color: #faebd7;
-    height: 10vh;
 }
 .nav-bar a{
     color: #553811;
-    font-size: 1.3em;
     text-decoration: none;
 }
 .nav-bar a:hover{
