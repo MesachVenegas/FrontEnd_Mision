@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+.column-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.column-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.column-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 *{
     font-family: 'Fira Code';
     font-weight: 600;
@@ -22,21 +34,19 @@
     color: sienna;
     text-decoration: dashed;
 }
-
 .layer{
-    width: 100vw;
+    width: 100%;
 }
-.column-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.logo a img{
+    max-width: 80px;
 }
-.column-2 div{
+#menu{
+    font-size: 1em;
     padding: 2em;
+    margin: 2em;
 }
-
 .formulario{
     background-color: #4d4d4d;
     color: #FFFFFF;
-    text-align: center;
     padding: 15px;
 }
