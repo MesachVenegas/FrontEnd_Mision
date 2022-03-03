@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+.column-1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .column-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -13,6 +16,9 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+body{
+    background-image: url(/HTML/Pasteleria/Images/bg-image.jpg);
+}
 *{
     font-family: 'Fira Code';
     font-weight: 600;
@@ -24,7 +30,7 @@
     font-family: 'Lobster', cursive;
 }
 .nav-bar{
-    background-color: #faebd7;
+    background-color: rgba(255, 255, 255, .8);;
 }
 .nav-bar a{
     color: #553811;
@@ -35,6 +41,7 @@
     text-decoration: dashed;
 }
 .layer{
+    height: 600px;
     width: 100%;
 }
 .logo a img{
@@ -45,8 +52,35 @@
     padding: 2em;
     margin: 2em;
 }
+#menu div{
+    background-color: rgba(255, 255, 255, .7);
+    list-style: none;
+    padding: 2em;
+}
+#menu li{
+    list-style: none;
+}
 .formulario{
-    background-color: #4d4d4d;
-    color: #FFFFFF;
-    padding: 15px;
+    background-color: rgba(255, 255, 255, .6);
+    text-align: justify;
+    color: #000000;
+    padding: 2em;
+    margin: 1em
+}
+
+/* Ajustes del Panel de Administración */
+.inventario{
+    padding: 1em;
+    margin: 5px;
+    font-size: .8em;
+    background-color: rgba(255, 255, 255, .7);
+}
+.ingredients{
+    margin: 1em;
+}
+.ingredients table caption{
+    font-size: 1.5em;
+}
+.data-table{
+    padding: 1em;
 }
