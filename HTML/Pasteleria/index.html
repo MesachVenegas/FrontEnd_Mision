@@ -1,101 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es-MX">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pastelería Balbuena | Home</title>
-    <link rel="icon" href="Assets/Icons/Balbuena.ico">
-    <link rel="stylesheet" href="CSS/main.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Balbuena Pastelerías</title>
+
 </head>
 <body>
-    <!-- Barra de navegación -->
-    <nav class="nav-bar">
-        <div class="column-2">
-            <div class="logo">
-                <a href="index.html"><img src="Images/Balbuena-no-bg.png" alt="Pastelería Balbuena"></a>
-            </div>
-            <div class="links">
-                <a href="index.html">Home</a>
-                <a href="admin.html">Admin</a>
-            </div>
-        </div>
-    </nav>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs|pills" id="navId" role="tablist">
+        <li class="nav-item logo">
+            <a href="index.html"><img src="Images/Balbuena-no-bg.png" alt="Logo"></a>
+        </li>
+        <li class="nav-item">
+            <a href="#tab1Id" class="nav-link active" data-bs-toggle="tab">Home</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Another link</a>
+        </li>
+    </ul>
 
-    <!-- Saludo -->
-    <img class="layer" src="Images/layer-img.jpg" alt="Pastel Balbuena">
-    <h1 id="welcome">Pastelería Balbuena Bienvenidos!</h1>
-    <hr class="separator">
-
-    <!--  Listado de sabores y  decoraciones   -->
-    <div class="column-2" id="menu">
-        <div class="flavors">
-            <h3>Sabores</h3>
-            <ul>
-            <li>Chocolate Amargo ...................  $160</li>
-            <li>Chocolate Blanco ...................  $170</li>
-            <li>Vainilla ........................... $155</li>
-            <li>Natural ............................ $130</li>
-            <li>3 Leches ........................... $210</li>
-            <li>Frutas ............................. $180</li>
-            <li>Red Velvert ........................ $280</li>
-            <li>CHeese Cake ........................ $220</li>
-            <li>De Nieve ........................... $160</li>
-        </ul>
-    </div>
-
-    <div class="decorations">
-        <h3>Decoraciones</h3>
-        <ul>
-            <li>Colorante natural .......................... $50 </li>
-            <li>Velas Personalizadas ....................... $100</li>
-            <li>Letrero personalizado ...................... $75</li>
-            <li>Figuras  plásticas .......................... $60</li>
-            <li>Figuras comestibles ........................ $120</li>
-            <li>Adornos acrílicos .......................... $65</li>
-            <li>Fondan ..................................... $70</li>
-            <li>De Bodas ................................... $350</li>
-            <li>Despedidas ................................. $450</li>
-            <li>Baby Shower ................................ $250</li>
-        </ul>
-    </div>
-</div>
-
-    <!--   Formulario de Pedidos -->
-    <form class="formulario">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name">
-        <label for="lastname">Apellidos:</label>
-        <input type="text" id="lastname" name="lastname">
-        <br>
-        <label for="phone">Telefono:</label>
-        <input type="text" name="phone" id="phone">
-        <br>
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" name="email" id="email">
-        <br>
-        <br>
-        <label for="description">Descripcion del pedido:</label>
-        <textarea name="description" id="description" cols="15" rows="10"></textarea>
-        <br>
-        <label for="flavors">Sabores</label>
-        <select name=flavor id="flavor">
-            <option value="Chocolate">Chocolate</option>
-            <option value="Vainilla">Vainilla</option>
-            <option value="Fresa">Fresa</option>
-            <option value="3 Leches">3 Leches</option>
-            <option value="Frutas">Frutas</option>
-        </select>
-        <label for="mix">Combinar con:</label>
-        <select name="flavor-2" id="flavor-2">
-            <option value="Chocolate">Chocolate</option>
-            <option value="Vainilla">Vainilla</option>
-            <option value="Fresa">Fresa</option>
-            <option value="3 Leches">3 Leches</option>
-            <option value="Frutas">Frutas</option>
-        </select>
-        <br>
-        <Button type="submit">Enviar</Button>
-    </form>
+    <h1>Bienvenidos</h1>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
