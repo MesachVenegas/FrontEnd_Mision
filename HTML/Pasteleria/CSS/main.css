@@ -1,9 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-*{
-    padding: 0px;
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Lobster&display=swap');
+:root{
+    --spanish-pink: #F9B9B7;
+    --cliclamen: #F06C9B;
+    --deep-champagne: #F5D491;
+    --dark-skyblue: #96C9DC;
+    --candel-blue: #61A0AF;
+    --cristal-black: rgba(0, 0, 0, .7);
+    --cristal-white: rgba(255, 255, 255, .7)
 }
-.navbar{
-    background-color: rgb(192, 10, 64);
+.logo{
+    height: 70px;
+    width: 70px;
+}
+.bg-navbar{
+    background-color: var(--cliclamen);
+}
+.mark{
+    background: rgba(255, 255, 255, .0);
+    font-family: 'Lobster', cursive;
+}
+div.text-box{
+    position: relative;
+    top: 130px;
+}
+body{
+    font-family: "Fira Code";
+    background-image: url('/Images/bg-image.jpg');
+}
+.text-box{
+    font-weight: bold;
+    background-color: var(--cristal-white);
+    padding: 30px;
+}
+.nav-link{
+    font-family: 'Lobster', cursive;
+    font-size: 1.3em;
 }
