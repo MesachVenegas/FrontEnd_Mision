@@ -7,7 +7,7 @@
     --dark-skyblue: #96C9DC;
     --candel-blue: #61A0AF;
     --cristal-black: rgba(0, 0, 0, .7);
-    --cristal-white: rgba(255, 255, 255, .7)
+    --cristal-white: rgba(255, 255, 255, .8)
 }
 .logo{
     height: 70px;
@@ -26,7 +26,7 @@ div.text-box{
 }
 body{
     font-family: "Fira Code";
-    background-image: url('/Images/bg-image.jpg');
+    background-image: url("/Images/bg-image.jpg");
 }
 .text-box{
     font-weight: bold;
@@ -36,4 +36,43 @@ body{
 .nav-link{
     font-family: 'Lobster', cursive;
     font-size: 1.3em;
+}
+.nav-link:hover{
+    color: var(--candel-blue)
+}
+.card-box{
+    position:relative;
+    top: 135px;
+}
+.rounded-img{
+    border-radius: 15px;
+}
+.card{
+    background-color: var(--cristal-white);
+}
+.card-box h5{
+    font-family: 'Lobster', cursive;
+}
+.foot{
+    position: relative;
+    top: 140px;
+    background-color: var(--spanish-pink);
+    color: white;
+}
+.btn-pastel{
+    margin-top: 40px;
+    margin-left: 20%;
+    background-color: var(--deep-champagne);
+    font-size:2em;
+}
+.make-cake{
+    font-family: 'Lobster', cursive;
+}
+.btn-send{
+    background-color: var(--deep-champagne);
+    background: var(--deep-champagne);
+    color: #000000;
+}
+.btn-send:hover{
+    background-color: var(--candel-blue);
 }
