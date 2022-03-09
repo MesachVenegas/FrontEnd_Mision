@@ -1,78 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Lobster&display=swap');
-:root{
-    --spanish-pink: #F9B9B7;
-    --cliclamen: #F06C9B;
-    --deep-champagne: #F5D491;
-    --dark-skyblue: #96C9DC;
-    --candel-blue: #61A0AF;
-    --cristal-black: rgba(0, 0, 0, .7);
-    --cristal-white: rgba(255, 255, 255, .8)
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Lobster&display=swap");
+:root {
+  --spanish-pink: #f9b9b7;
+  --cliclamen: #f06c9b;
+  --deep-champagne: #f5d491;
+  --dark-skyblue: #96c9dc;
+  --candel-blue: #61a0af;
+  --cristal-black: rgba(0, 0, 0, 0.7);
+  --cristal-white: rgba(255, 255, 255, 0.8);
 }
-.logo{
-    height: 70px;
-    width: 70px;
+.logo {
+  height: 70px;
+  width: 70px;
 }
-.bg-navbar{
-    background-color: var(--cliclamen);
+.bg-navbar {
+  background-color: var(--cliclamen);
 }
-.mark{
-    background: rgba(255, 255, 255, .0);
-    font-family: 'Lobster', cursive;
+.mark {
+  background: rgba(255, 255, 255, 0);
+  font-family: "Lobster", cursive;
 }
-div.text-box{
-    position: relative;
-    top: 130px;
+div.text-box {
+  position: relative;
+  top: 130px;
 }
-body{
-    font-family: "Fira Code";
-    background-image: url("/Images/bg-image.jpg");
+body {
+  font-family: "Fira Code";
+  background-image: url("/Images/bg-image.jpg");
 }
-.text-box{
-    font-weight: bold;
-    background-color: var(--cristal-white);
-    padding: 30px;
+.text-box {
+  font-weight: bold;
+  background-color: var(--cristal-white);
+  padding: 30px;
 }
-.nav-link{
-    font-family: 'Lobster', cursive;
-    font-size: 1.3em;
+.nav-link {
+  font-family: "Lobster", cursive;
+  font-size: 1.3em;
 }
-.nav-link:hover{
-    color: var(--candel-blue)
+.nav-link:hover {
+  color: var(--candel-blue);
 }
-.card-box{
-    position:relative;
-    top: 135px;
+.card-box {
+  position: relative;
+  top: 135px;
 }
-.rounded-img{
-    border-radius: 15px;
+.rounded-img {
+  border-radius: 15px;
 }
-.card{
-    background-color: var(--cristal-white);
+.card {
+  background-color: var(--cristal-white);
 }
-.card-box h5{
-    font-family: 'Lobster', cursive;
+.card-box h5 {
+  font-family: "Lobster", cursive;
 }
-.foot{
-    position: relative;
-    top: 140px;
-    background-color: var(--spanish-pink);
-    color: white;
+
+.btn-pastel {
+  margin-top: 40px;
+  background-color: var(--deep-champagne);
+  font-size: 2em;
 }
-.btn-pastel{
-    margin-top: 40px;
-    margin-left: 20%;
-    background-color: var(--deep-champagne);
-    font-size:2em;
+.btn-pastel a:hover {
+  background-color: var(--candel-blue);
 }
-.make-cake{
-    font-family: 'Lobster', cursive;
+.make-cake {
+  font-family: "Lobster", cursive;
 }
-.btn-send{
-    background-color: var(--deep-champagne);
-    background: var(--deep-champagne);
-    color: #000000;
+.btn-send {
+  background-color: var(--deep-champagne);
+  background: var(--deep-champagne);
+  color: #000000;
+  font-size: 2em;
 }
-.btn-send:hover{
-    background-color: var(--candel-blue);
+a.btn-send:hover {
+  background-color: var(--candel-blue);
+}
+.foot {
+  position: relative;
+  top: 140px;
+  background-color: var(--cliclamen);
+  font-weight: bold;
 }
