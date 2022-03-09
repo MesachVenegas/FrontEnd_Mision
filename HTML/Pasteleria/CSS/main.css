@@ -9,10 +9,12 @@
   --cristal-black: rgba(0, 0, 0, 0.7);
   --cristal-white: rgba(255, 255, 255, 0.8);
 }
+/* dimensiones del logo */
 .logo {
   height: 70px;
   width: 70px;
 }
+/* Navbar */
 .bg-navbar {
   background-color: var(--cliclamen);
 }
@@ -20,18 +22,9 @@
   background: rgba(255, 255, 255, 0);
   font-family: "Lobster", cursive;
 }
-div.text-box {
-  position: relative;
-  top: 130px;
-}
 body {
   font-family: "Fira Code";
   background-image: url("/Images/bg-image.jpg");
-}
-.text-box {
-  font-weight: bold;
-  background-color: var(--cristal-white);
-  padding: 30px;
 }
 .nav-link {
   font-family: "Lobster", cursive;
@@ -39,6 +32,16 @@ body {
 }
 .nav-link:hover {
   color: var(--candel-blue);
+}
+/* caja de texto principal */
+div.text-box {
+  position: relative;
+  top: 130px;
+}
+.text-box {
+  font-weight: bold;
+  background-color: var(--cristal-white);
+  padding: 30px;
 }
 .card-box {
   position: relative;
@@ -53,7 +56,7 @@ body {
 .card-box h5 {
   font-family: "Lobster", cursive;
 }
-
+/* Boton de personalización */
 .btn-pastel {
   margin-top: 40px;
   background-color: var(--deep-champagne);
@@ -62,6 +65,7 @@ body {
 .btn-pastel a:hover {
   background-color: var(--candel-blue);
 }
+/* Styles para el form de pedidos. */
 .make-cake {
   font-family: "Lobster", cursive;
 }
