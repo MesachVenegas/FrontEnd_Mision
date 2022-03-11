@@ -1,14 +1,180 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
     --blue-medicine: #1688e3;
-    --rombos: #f4f6fb;
-    --title: #1b3a6f;
+    --brand-color: #3757d6;
+    --rombos: rgba(230, 230, 233, 0.7);
+    --title: #1f50a3;
     --bg-button: #2b4bc9;
     --font-color: #9da6b6;
     --bg-icons: #f4f7ff;
     --bg-translucid: rgba(250, 252, 254, 0.1);
-    --shadow: rgba(27, 58, 111, 0.2);
-    --bg-nav: rgba(255, 255, 255, 0.8);
-    --font-style: 'Josefin Sans', sans-serif;
+    --shadow: rgba(27, 58, 111, 0.3);
+    --bg-nav: rgba(255, 255, 255, 0.9);
+    --font-open: 'Open Sans', bold;
+    --font-strong: rgba(109, 109, 109, 0.8);
+    --gold: rgb(255, 215, 0);
+    --shadow-gold: rgba(255, 215,0, .3);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: var(--font-open);
+    color: var(--font-color);;
+}
+h1{
+    color: var(--title);
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+}
+/* Barra de Navegación */
+.brand-name a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--brand-color);
+    font-weight: 600;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    background-color: var(--bg-nav);
+    padding: 20px;
+    position: fixed;
+    z-index: 3;
+}
+.brand-name{
+    grid-column: 2/3;
+}
+.navbar .nav-menu{
+    display: flex;
+    grid-column: 6/12;
+    justify-content: space-around;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.3rem;;
+    color: var(--font-color);
+    cursor: pointer;
+}
+.nav-link:hover{
+    padding: 10px 25px 10px 25px;;
+    font-size: 1.1rem;
+    color: #FFF;
+    text-decoration: none;
+    background-color: var(--bg-button);
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px var(--shadow);
+}
+
+
+/* Seccion main */
+.info-content h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.container-main{
+    display: grid;
+    max-width: 100vw;
+    align-items: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.box1{
+    position: relative;
+    background-color: var(--rombos);
+    width: 100px;
+    height: 100px;
+    top: -20px;
+    left: 60px;
+    z-index: 1;
+    transform: rotate(-45deg);
+}
+.box2{
+    position: relative;
+    background-color: var(--rombos);
+    width: 100px;
+    height: 100px;
+    transform: rotate(-45deg);
+    top: 390px;
+    left: 550px;
+    z-index: 1;
+}
+.info-content{
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+.services{
+    display: flex;
+    grid-column: 2/6;
+    grid-row: 3/3;
+    justify-content: space-around;
+}
+.fa-shield-blank{
+    color: var(--gold);
+}
+.land-img{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    background-color: var(--brand-color);
+    height: 700px;
+    width: 600px;
+    grid-row: 1/6;
+    top: 0px;
+    left: 710px;
+    z-index:2;
+}
+/* formulario de vacunacion */
+.title{
+    grid-column: 2/6;
+    grid-row: 3/5;
+}
+.form-vaccination{
+    position: absolute;
+    width: 700px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 605px;
+    left: 150px;
+    background-color: var(--bg-nav);
+    border-radius: 5px;
+    box-shadow: -1px 7px 10px 4px var(--shadow);
+    z-index: 3;
+}
+.form-vaccination .box-data{
+    margin-left: 20px;
+    color: var(--font);
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0px;
+}
+.form-vaccination .box-data input{
+    margin-left: 20px;
+    color: var(--font);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 0px;
+}
+.btn{
+    background-color: var(--bg-button);
+    color: #FFF;
+    width: 130px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 5px 5px var(--shadow);
 }
