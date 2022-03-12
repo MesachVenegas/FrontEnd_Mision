@@ -58,40 +58,43 @@
             <label>Schedule your vaccinations</label>
         </div>
         <!-- Form para la cita de vacunacion -->
-        <div class="form-vaccination">
-            <div>
-                <span><i class="fa-solid fa-location-dot blueicon-sm"></i></span>
-                <label for="">Location</label>
-                <br>
-                <select class="box-data" name="Location" id="Location">
-                    <option>Tijuana, BC</option>
-                    <option>Tecate, BC</option>
-                    <option>Mexicali, BC</option>
-                    <option>Ensenada, BC</option>
-                    <option>Rosarito, BC</option>
-                </select>
+        <form>
+            <div class="form-vaccination">
+                <div>
+                    <span><i class="fa-solid fa-location-dot blueicon-sm"></i></span>
+                    <label for="">Location</label>
+                    <br>
+                    <select class="box-data" name="Location" id="Location">
+                        <option>Tijuana, BC</option>
+                        <option>Tecate, BC</option>
+                        <option>Mexicali, BC</option>
+                        <option>Ensenada, BC</option>
+                        <option>Rosarito, BC</option>
+                    </select>
+                </div>
+                <div>
+                    <span><i class="fa-regular fa-calendar-days blueicon-sm"></i></span>
+                    <label for="date">Date</label>
+                    <br>
+                    <input class="box-data" type="date" id="date" name="date-start" value="2022-03-11" min="2022-01-01" max="2055-12-31">
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-pen blueicon-sm"></i></span>
+                    <label for="">Vaccine Type</label>
+                    <br>
+                    <select class="box-data" name="Location" id="Location">
+                        <option value="Moderna">Moderna</option>
+                        <option value="Astra Zeneca">Astra Zeneca</option>
+                        <option value="SinoVac">SinoVac</option>
+                        <option value="Pfizer">Pfizer</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn" type="submit">Submit</button>
+                </div>
             </div>
-            <div>
-                <span><i class="fa-regular fa-calendar-days blueicon-sm"></i></span>
-                <label for="date">Date</label>
-                <br>
-                <input class="box-data" type="date" id="date" name="date-start" value="2022-03-11" min="2022-01-01" max="2055-12-31">
-            </div>
-            <div>
-                <span><i class="fa-solid fa-pen blueicon-sm"></i></span>
-                <label for="">Vaccine Type</label>
-                <br>
-                <select class="box-data" name="Location" id="Location">
-                    <option value="Moderna">Moderna</option>
-                    <option value="Astra Zeneca">Astra Zeneca</option>
-                    <option value="SinoVac">SinoVac</option>
-                    <option value="Pfizer">Pfizer</option>
-                </select>
-            </div>
-            <div>
-                <button class="btn" type="submit">Submit</button>
-            </div>
-        </div>
+        </form>
+
         <div class="land-img">
             <img src="./Images/injection.png" alt="vaccinations">
         </div>
@@ -133,6 +136,16 @@
                     <h4>Creating group immunity</h4>
                     <p>COVID-19 vaccination is also beneficial for creating group immunity or herd immunity</p>
                 </div>
+            </div>
+        </div>
+        <!-- Info accordion -->
+        <div class="container">
+            <div class="girl">
+                <img src="./Images/girl.png" alt="">
+            </div>
+            <div>
+                <h2>Preparations Before Vaccine</h2>
+                <p>the success of vaccines is strongly influenced by the strength of the body's immune system.Therefore, there are several things that can be tired to make the COVID-19 vaccine work:</p>
             </div>
         </div>
 
