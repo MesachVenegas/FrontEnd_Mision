@@ -314,22 +314,21 @@ select {
 .grid-12{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    align-items: center;
+    grid-template-rows: repeat(7, .5fr);
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 .girl{
     grid-column: 1/5;
-    grid-row: 1/6;
+    grid-row: 1/8;
     align-self: flex-end;
     z-index: 2;
 }
 .blue-box{
     position: absolute;
     background-color: var(--brand-color);
-    top: 1858px;
+    top: 1953px;
     height: 300px;
     width: 450px;
     z-index: -1;
@@ -337,19 +336,46 @@ select {
 .info{
     grid-column: 6/12;
     grid-row: 1/2;
+    padding: 20px;
 }
-.accordion{
-    grid-column: 6/12;
-    grid-row: 2/6;
+/* acordeón */
+.toggler{
+    grid-column: 6/11;
+    grid-row: 2/8;
+    padding: 10px;
 }
-.grid-2{
+.toggler-content{
     display: grid;
+    gap: 15px;
 }
-
+.toggler-content .item{
+    padding: 10px;
+    height: 45px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .7s;
+    box-shadow: 0px 2px var(--blue-shadow);
+    cursor: pointer;
+}
+.toggler-content .item:hover{
+    height: auto;
+    box-shadow: 0 5px var(--blue-shadow);
+}
+.toggler-content .item .toggler-title {
+    margin-bottom: 15px;
+}
+.item  a{
+    display: flex;
+    text-decoration: none;
+}
+.togg-text{
+    margin-left: 30px;
+    padding: 10px;
+}
 /* Area de contacto con los clientes */
 .emergency{
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     align-items: center;
     margin: 50px 0px 100px 0px;
 }
@@ -429,7 +455,7 @@ select {
 }
 .bg-img{
     position: absolute;
-    top: 2582px;
+    top: 2656px;
     left: 720px;
     width: 590px;
     height: 395px;
