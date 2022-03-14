@@ -6,7 +6,6 @@
     --rombos: rgba(230, 230, 233, 0.7);
     --title: #1f50a3;
     --bg-button: #2b4bc9;
-    --bg-button-light: rgba(109, 126, 196, 0.4);
     --font-color: #525e72cb;
     --bg-icons: #f4f7ff;
     --bg-translucid: rgba(250, 252, 254, 0.1);
@@ -220,7 +219,7 @@ select {
     box-shadow: 0px 5px 5px var(--shadow);
 }
 .btn-light{
-    background-color: var(--bg-button-light);
+    background-color: var(--blue-shadow);
     color: var(--bg-button);
     width: 170px;
     height: 40px;
@@ -368,7 +367,7 @@ select {
     gap: 20px;
     justify-items: center;
     align-items: center;
-    margin: 150px 0 50px 0;
+    margin: 120px 0 50px 0;
 }
 .contact-box{
     display: grid;
@@ -377,7 +376,7 @@ select {
     align-items: center;
     width: 180px;
     height: 100px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 2px 1px 5px 1px var(--shadow);
 }
@@ -422,6 +421,7 @@ select {
 .box-4{
     position: absolute;
     right: 50px;
+    top: 2320px;
 }
 .guy img{
     position: relative;
@@ -429,7 +429,7 @@ select {
 }
 .bg-img{
     position: absolute;
-    top: 2612px;
+    top: 2582px;
     left: 720px;
     width: 590px;
     height: 395px;
